@@ -56,7 +56,7 @@
     display: flex;
     margin-left: 130px;
     margin-top: 10px;
-    width: 100%;
+    /* width: 100%; */
 }
 #danhGia-left{
     display: flex;
@@ -70,9 +70,30 @@
 }
 #share{
     display: flex;
-    
     width: 15%;
 }
 #save{
     display: flex;
+}
+#hinh{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+#hinh-left{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+#hinh-right-top{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+#hinh-right-bot{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;  
 }
